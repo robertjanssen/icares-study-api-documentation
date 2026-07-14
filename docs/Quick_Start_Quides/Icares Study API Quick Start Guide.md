@@ -14,7 +14,7 @@ https://platform.icares.com
 
 After signing in, open:
 
-https://platform.icares.com/graphiql
+https://platform.icares.com/graphql
 
 The GraphiQL in-browser tool allows you to:
 
