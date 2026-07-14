@@ -2,7 +2,7 @@
 
 The GraphiQL in-browser tool allows you to explore, test and validate GraphQL requests directly in your browser before integrating them into your own application.
 
-![GraphiQL interface](GraphiQL_Quick_Start_Guide_with_screen_names.png)
+![GraphiQL interface](Images/GraphiQL_Quick_Start_Guide_with_screen_names.png)
 
 The interface consists of four main areas:
 
