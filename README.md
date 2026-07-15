@@ -19,8 +19,8 @@ The Example Library contains ready-to-use GraphQL examples that can be copied di
 
 Examples are grouped into:
 
-- Queries
-- Mutations
+- [Mutations](docs/Examples/Mutations)
+- [Queries](docs/Examples/Queries)
 
 ## Typical Integration Workflow
 
@@ -37,4 +37,4 @@ A typical integration consists of the following steps:
 
 All API requests use HTTP POST and are authenticated using a Bearer Token.
 
-For more information, see the **Icares Study API Quick Start Guide**.
+For more information, see the [**Icares Study API Quick Start Guide**](docs/Quick_Start_Guides/Icares_Study_API_Quick_Start_Guide.md).
