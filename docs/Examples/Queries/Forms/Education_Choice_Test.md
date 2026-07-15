@@ -1,3 +1,4 @@
+**Navigation:** [Home](../../../README.md) > [Examples](../../README.md) > [Queries](../README.md) > **Forms**
 # Education Choice Test Form
 
 ## Purpose
@@ -62,10 +63,7 @@ Only the fields included in the GraphQL Request are returned.
 
 ## Related Examples
 
-Previous step:
-
-- **Mutations → Invite → Invite Study Test**
-
-Next step:
-
-- **Mutations → Submit Test → Education Choice Test**
+---
+⬅️ [Invite Study Test](../../Mutations/Invite/Invite_Study_Test.md) |
+⬆️ [Forms](README.md) |
+➡️ [Education Choice Test Results](../Results/Education_Choice_Test.md)
