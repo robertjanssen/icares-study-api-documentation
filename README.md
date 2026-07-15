@@ -31,7 +31,7 @@ A typical integration consists of the following steps:
 3. Start the study test (optional).
 4. Submit the completed answers.
 5. Retrieve the results.
-6. Retrieve shared registrations (optional, for educational institutions with an Icares Study Portal, see [GraphiQL example](docs/Examples/Queries/Results/Shared_Registrations.md).
+6. Retrieve shared registrations (optional, for educational institutions with an Icares Study Portal, see [GraphiQL example](docs/Examples/Queries/Results/Shared_Registrations.md)).
 
 ## Authentication
 
