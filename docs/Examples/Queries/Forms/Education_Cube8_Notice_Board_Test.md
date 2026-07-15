@@ -4,7 +4,7 @@
 
 Retrieves the form definition for the **Education Cube8 Notice Board Test**.
 
-The response contains the test type, question information and the available answer options.
+Retrieves the complete form definition for the test type, question information and the available answer options.
 
 ---
 
