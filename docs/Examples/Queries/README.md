@@ -1,20 +1,23 @@
-
 ## Typical workflow
 
-Create invitation
+Invite Study Test
 
 ↓
 
-Retrieve test form
+Retrieve Test Form
 
 ↓
 
-Present questions
+Start Study Test (optional)
 
 ↓
 
-Submit answers
+Submit Test
 
 ↓
 
-Retrieve results
+Retrieve Results
+
+↓
+
+Retrieve Shared Registrations (optional)
