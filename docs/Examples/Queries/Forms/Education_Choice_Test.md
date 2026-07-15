@@ -4,7 +4,7 @@
 
 Retrieves the form definition for the **Education Choice Test**.
 
-The response contains the test type, questions, help texts and available answers.
+Retrieves the complete form definition for the the test type, questions, help texts and available answers.
 
 ---
 
