@@ -6,8 +6,8 @@
 
 Start here if this is your first integration.
 
-- Icares Study API Quick Start Guide
-- GraphiQL In-Browser Tool Quick Start Guide
+- [Icares Study API Quick Start Guide](docs/Quick_Start_Guides/Icares_Study_API_Quick_Start_Guide.md)
+- [GraphiQL In-Browser Tool Quick Start Guide](docs/Quick_Start_Guides/Icares_Study_API_GraphiQL_in-browser_tool Quick Start Guide.md)
 
 ### Example Library
 
