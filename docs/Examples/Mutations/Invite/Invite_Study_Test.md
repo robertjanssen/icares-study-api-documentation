@@ -1,8 +1,8 @@
-# Education Choice Test
+# Invite Study Test
 
 ## Purpose
 
-Creates one or more **Education Choice Tests**.
+Creates one or more **study tests**.
 
 The response contains all information required to start the study test, including the generated test secret and the URL that can be used to open the test.
 
