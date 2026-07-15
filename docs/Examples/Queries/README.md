@@ -1,23 +1,19 @@
-## Typical workflow
+# Queries
 
-Invite Study Test
+This directory contains GraphQL query examples.
 
-↓
+Queries are used to retrieve information from the Icares Study API.
 
-Retrieve Test Form
+## Available examples
 
-↓
+### Forms
 
-Start Study Test (optional)
+Retrieve the form definitions required to present study tests.
 
-↓
+- [Forms](Forms)
 
-Submit Test
+### Results
 
-↓
+Retrieve study advice and shared registrations.
 
-Retrieve Results
-
-↓
-
-Retrieve Shared Registrations (optional)
+- [Results](Results)
