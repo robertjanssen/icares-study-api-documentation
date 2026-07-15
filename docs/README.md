@@ -15,8 +15,8 @@ Ready-to-use GraphQL examples.
 
 Examples are grouped into:
 
-- Mutations
-- Queries
+- [Mutations](docs/Examples/Mutations)
+- [Queries](docs/Examples/Queries)
 
 ### Typical integration workflow
 
