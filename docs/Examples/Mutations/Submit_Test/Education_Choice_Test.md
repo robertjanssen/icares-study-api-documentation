@@ -10,8 +10,6 @@ Each submitted answer consists of a question identifier (`id`) and the selected 
 
 ## GraphQL Request
 
-Copy and paste the following GraphQL mutation into the **Query / Mutation editor** of the GraphiQL in-browser tool.
-
 ```graphql
 mutation submitEducationChoiceTestAnswer
 (
@@ -114,20 +112,7 @@ Replace **`<< test id >>`** with the identifier returned by the **Invite Study T
 
 ## Response
 
-A successful request returns the updated study test.
-
-Typical response fields include:
-
-- Study test identifier
-- Study test type
-- Creation date
-- Start date
-- Completion date
-- Result URL
-- Test secret
-- Study test URL
-
-Only the fields requested in the GraphQL mutation are returned.
+A successful request returns the updated study test. Only the requested fields are returned.
 
 ---
 
