@@ -1,20 +1,19 @@
+# Mutations
 
-## Typical workflow
+This directory contains GraphQL mutation examples.
 
-Create invitation
+Mutations are used to create or modify data in the Icares Study API.
 
-↓
+## Available examples
 
-Retrieve test form
+### Invite
 
-↓
+Create a new study test invitation.
 
-Present questions
+- [Invite](Invite)
 
-↓
+### Submit Test
 
-Submit answers
+Start a study test and submit completed answers.
 
-↓
-
-Retrieve results
+- [Submit Test](Submit_Test)
