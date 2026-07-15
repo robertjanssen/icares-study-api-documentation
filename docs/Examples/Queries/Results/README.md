@@ -1,6 +1,6 @@
 # Results
 
-This folder contains GraphQL query examples for retrieving completed study test results and education advice.
+The examples in this folder demonstrate how to retrieve study results and how to filter the returned education programmes by country, education level, educational institution and language.
 
 Each example includes:
 
