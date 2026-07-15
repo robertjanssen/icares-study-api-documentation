@@ -1,27 +1,24 @@
-# Icares Study API Documentation
+# Documentation
 
-## Documentation
+This directory contains the complete developer documentation for the Icares Study API.
 
-### Quick Start Guides
+## Quick Start Guides
 
-Start here if this is your first integration.
+- [Icares Study API Quick Start Guide](Quick_Start_Guides/Icares_Study_API_Quick_Start_Guide.md)
+- [GraphiQL In-Browser Tool Quick Start Guide](Quick_Start_Guides/Icares_Study_API_GraphiQL_in_browser_tool_Quick_Start_Guide.md)
 
-- [Icares Study API Quick Start Guide](docs/Quick_Start_Guides/Icares_Study_API_Quick_Start_Guide.md)
-- [GraphiQL In-Browser Tool Quick Start Guide](docs/Quick_Start_Guides/Icares_Study_API_GraphiQL_in_browser_tool_Quick_Start_Guide.md)
+## API Reference
 
-### Example Library
+- [API Conventions](API_Conventions.md)
 
-Ready-to-use GraphQL examples.
+## GraphQL Examples
 
-Examples are grouped into:
+### Mutations
 
-- [Mutations](docs/Examples/Mutations)
-- [Queries](docs/Examples/Queries)
+- [Invite](Examples/Mutations/Invite)
+- [Submit Test](Examples/Mutations/Submit_Test)
 
-### Typical integration workflow
+### Queries
 
-1. Create a test invitation.
-2. Retrieve the test form.
-3. Present the questions.
-4. Submit the answers.
-5. Retrieve the calculated results.
+- [Forms](Examples/Queries/Forms)
+- [Results](Examples/Queries/Results)
