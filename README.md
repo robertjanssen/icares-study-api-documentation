@@ -10,8 +10,8 @@ This repository contains everything required to integrate with the Icares Study 
 
 If you are integrating with the API for the first time, we recommend starting with the Quick Start Guides.
 
-- [GraphiQL In-Browser Tool Quick Start Guide](docs/Quick_Start_Guides/Icares_Study_API_GraphiQL_in_browser_tool_Quick_Start_Guide.md)
-- [Icares Study API Quick Start Guide](docs/Quick_Start_Guides/Icares_Study_API_Quick_Start_Guide.md).
+1. [Icares Study API Quick Start Guide](docs/Quick_Start_Guides/Icares_Study_API_Quick_Start_Guide.md).
+2. [GraphiQL In-Browser Tool Quick Start Guide](docs/Quick_Start_Guides/Icares_Study_API_GraphiQL_in_browser_tool_Quick_Start_Guide.md)
 
 ### Example Library
 
