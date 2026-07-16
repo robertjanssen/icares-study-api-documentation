@@ -66,7 +66,5 @@ Only the fields included in the GraphQL Request are returned.
 ---
 
 ## Related Examples
-
----
 ⬅️ [Invite Study Test](../../Mutations/Invite/Invite_Study_Test.md) |
 ➡️ [Submit Study Swiper Test Answers](../../Mutations/Submit_Test/Study_Swiper_Test.md)
