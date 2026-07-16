@@ -1,4 +1,4 @@
-**Navigation:** [Home](../../../README.md) > [Examples](../../README.md) > [Queries](../README.md) > **Forms**
+[Home](../../../README.md) > [Examples](../../README.md) > [Queries](../README.md) > **Forms**
 # Education Choice Test Form
 
 ## Purpose
