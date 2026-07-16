@@ -123,10 +123,6 @@ A successful request returns the updated study test. Only the requested fields a
 
 ## Related Examples
 
-Previous step:
-
-- **Mutations → Invite → Invite Study Test**
-
-Next step:
-
-- **Queries → Results**
+---
+⬅️ [Education Choice Test Form](../../Queries/Forms/Education_Choice_Test.md) |
+➡️ [Study Test Results](../../Queries/Results/Education_Choice_Test.md)
