@@ -90,6 +90,12 @@ The GraphiQL in-browser tool provides a convenient environment for developing an
 
 It includes a built-in **Documentation Explorer** that always reflects the current GraphQL schema.
 
+## GraphQL Schema
+
+The GraphiQL in-browser tool automatically exposes all fields that are available in the GraphQL schema.
+
+The examples in this documentation focus on the fields that are commonly used when integrating with the Icares Study API. Depending on your use case, additional fields may be available through the GraphQL schema.
+
 ---
 
 # Error Handling
