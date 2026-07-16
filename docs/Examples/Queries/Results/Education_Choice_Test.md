@@ -133,4 +133,4 @@ Only the fields included in the GraphQL Request are returned.
 ## Related Examples
 
 ---
-⬅️ [Invite Study Test](../../Mutations/Submit_Test/README.md)
+⬅️ [Submit Test Answers](../../Mutations/Submit_Test/README.md)
