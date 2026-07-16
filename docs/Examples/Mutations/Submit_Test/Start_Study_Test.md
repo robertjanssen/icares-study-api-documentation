@@ -14,8 +14,7 @@ This sets the `started_at` timestamp, which can be used to determine when the pa
 ```graphql
 mutation startTest
 (
-  $id           : Int!,
-  $with_language: Boolean
+  $id           : Int!
 )
 {
   start_test(id: $id)
@@ -29,9 +28,6 @@ mutation startTest
     created_at
     started_at
     finished_at
-    result_url
-    secret
-    secret_url(with_language: $with_language)
   }
 }
 ```
@@ -44,8 +40,7 @@ Replace `<< test id >>` with the identifier returned by the **Invite Study Test*
 
 ```json
 {
-  "id": << test id >>,
-  "with_language": true
+  "id": << test id >>
 }
 ```
 
