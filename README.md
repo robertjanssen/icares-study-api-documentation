@@ -31,12 +31,10 @@ A typical integration consists of the following steps:
 3. Start the study test (optional).
 4. Submit the completed answers.
 5. Retrieve the results.
-6. Retrieve shared registrations (optional, for educational institutions with an Icares Study Portal, see [GraphiQL example](docs/Examples/Queries/Results/Shared_Registrations.md)).
+6. Retrieve shared registrations (optional, for educational institutions with an Icares Study Portal).
 
 ## Authentication
 
 All API requests use HTTP POST and are authenticated using a Bearer Token.
 
-For more information about authentication, see the
-[Authentication](docs/API_Conventions.md#authentication)
-section in the API Conventions.
+For more information about authentication, see the section in the [API Conventions](docs/API_Conventions.md).
