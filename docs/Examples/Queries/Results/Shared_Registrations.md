@@ -18,7 +18,6 @@ query getSharedRegistrations
 (
   $start_date:                 Date!,
   $end_date:                   Date!,
-  $with_language:              Boolean,
   $country_id:                 Int,
   $education_level_id:         Int,
   $language_id:                Int,
@@ -81,8 +80,6 @@ query getSharedRegistrations
         created_at
         started_at
         finished_at
-        secret
-        secret_url(with_language:$with_language)
       }
       educations(
         country:                 $country_id,
@@ -144,7 +141,6 @@ query getSharedRegistrations
 {
   "start_date":                 "2026-01-01",
   "end_date":                   "2026-07-14",
-  "with_language":              true,
   "country_id":                 << $COUNTRY_ID >>,
   "education_level_id":         << $EDUCATION_LEVEL_ID >>,
   "language_id":                << $LANGUAGE_ID >>,
