@@ -1,4 +1,4 @@
-[Documentation](../../../README.md) > [Examples](../../README.md) > [Mutations](../README.md) > **Sumbit Tests**
+[Documentation](../../../README.md) > [Examples](../../README.md) > [Mutations](../README.md) > **Submit Tests**
 # Submit Test
 
 This folder contains GraphQL mutation examples for starting and submitting study tests.
