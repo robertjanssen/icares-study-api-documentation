@@ -74,5 +74,5 @@ Only the fields requested in the GraphQL mutation are returned.
 ## Related Examples
 
 ---
-⬅️ [Education Cube8 Notic Board Form](../../Queries/Forms/Education_Cube8_Notice_Board_Test.md) |
+⬅️ [Education Cube8 Notice Board Form](../../Queries/Forms/Education_Cube8_Notice_Board_Test.md) |
 ➡️ [Study Test Results](../../Queries/Results/Education_Choice_Test.md)
