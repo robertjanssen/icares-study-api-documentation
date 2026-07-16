@@ -15,7 +15,6 @@ The returned results can optionally be filtered by country, education level, edu
 query getEducationChoiceTestResult
 (
   $id:                         Int!,
-  $with_language:              Boolean,
   $country_id:                 Int,
   $education_level_id:         Int,
   $educational_institution_id: Int,
@@ -36,9 +35,6 @@ query getEducationChoiceTestResult
       created_at
       started_at
       finished_at
-      result_url
-      secret
-      secret_url(with_language: $with_language)
     }
     educations(
       country:                 $country_id,
@@ -100,7 +96,6 @@ Replace `<< test id >>` with the identifier of the completed study test.
 ```json
 {
   "id":                         << test id >>,
-  "with_language":              true,
   "country_id":                 << $COUNTRY_ID >>,
   "education_level_id":         << $EDUCATION_LEVEL_ID >>,
   "educational_institution_id": << $EDUCATIONAL_INSTITUTION_ID >>,
