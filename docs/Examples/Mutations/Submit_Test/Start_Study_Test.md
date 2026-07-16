@@ -78,10 +78,5 @@ The mutation can be used for the following study test types:
 
 ## Related Examples
 
-Previous step:
-
-- **Mutations → Invite → Invite Study Test**
-
-Next step:
-
-- **Mutations → Submit Test → Select the matching study test example**
+---
+⬆️ [Submit Test](README.md)
