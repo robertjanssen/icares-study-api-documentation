@@ -4,7 +4,7 @@ This document describes the general conventions used throughout the Icares Study
 
 ---
 
-# Endpoint
+## Endpoint
 
 All GraphQL requests are sent using HTTP **POST** to the following endpoint:
 
@@ -14,7 +14,7 @@ https://platform.icares.com/graphql
 
 ---
 
-# Authentication
+## Authentication
 
 Access to the API is secured using a unique **API Token**.
 
@@ -30,7 +30,7 @@ Keep your API Token confidential, as it provides access to the API on behalf of 
 
 ---
 
-# HTTP Headers
+## HTTP Headers
 
 Every GraphQL request must include the following HTTP headers.
 
@@ -41,13 +41,13 @@ Every GraphQL request must include the following HTTP headers.
 
 ---
 
-# HTTP Method
+## HTTP Method
 
 All GraphQL operations use the HTTP **POST** method.
 
 ---
 
-# Request Body
+## Request Body
 
 The request body consists of a JSON object containing:
 
@@ -66,7 +66,7 @@ Example:
 
 ---
 
-# Query Variables
+## Query Variables
 
 Whenever possible, values should be supplied through **Query Variables** rather than hardcoded into the GraphQL request.
 
@@ -74,7 +74,7 @@ This improves readability and allows the same GraphQL request to be reused with 
 
 ---
 
-# Response
+## Response
 
 The API returns a JSON response.
 
@@ -84,13 +84,13 @@ This allows applications to retrieve exactly the information they require and mi
 
 ---
 
-# GraphiQL In-Browser Tool
+## GraphiQL In-Browser Tool
 
 The GraphiQL in-browser tool provides a convenient environment for developing and testing GraphQL requests.
 
 It includes a built-in **Documentation Explorer** that always reflects the current GraphQL schema.
 
-## GraphQL Schema
+### GraphQL Schema
 
 The GraphiQL in-browser tool automatically exposes all fields that are available in the GraphQL schema.
 
@@ -98,7 +98,7 @@ The examples in this documentation focus on the fields that are commonly used wh
 
 ---
 
-# Error Handling
+## Error Handling
 
 When a request cannot be completed, the response contains one or more GraphQL errors describing the problem.
 
