@@ -15,8 +15,7 @@ The answer contains the question identifier and the selected combination of valu
 mutation submitEducationCube8BlackboardTestAnswer
 (
   $id           : Int!,
-  $answers      : [SubmitTestAnswerInput!]!,
-  $with_language: Boolean
+  $answers      : [SubmitTestAnswerInput!]!
 )
 {
   submit_test(id: $id, answers: $answers)
@@ -48,8 +47,7 @@ Replace `<< test id >>` with the identifier returned by the **Invite Study Test*
       "id": 938,
       "value": "ACGIORSV"
     }
-  ],
-  "with_language": true
+  ]
 }
 ```
 
