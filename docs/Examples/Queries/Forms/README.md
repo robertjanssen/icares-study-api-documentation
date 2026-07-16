@@ -8,6 +8,3 @@ Each example includes:
 - a GraphQL request;
 - Query Variables (if applicable);
 - notes describing the example.
-
----
-⬆️ [Queries](../README.md)
