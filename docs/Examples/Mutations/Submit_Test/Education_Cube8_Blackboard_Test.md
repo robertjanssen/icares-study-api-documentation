@@ -73,11 +73,6 @@ Only the fields requested in the GraphQL mutation are returned.
 
 ## Related Examples
 
-Previous steps:
-
-- **Mutations → Invite → Invite Study Test**
-- **Queries → Forms → Education Cube8 Blackboard Test**
-
-Next step:
-
-- **Queries → Results**
+---
+⬅️ [Education Cube8 Blackboard Form](../../Queries/Forms/Education_Cube8_Blackboard_Test.md) |
+➡️ [Study Test Results](../../Queries/Results/Education_Choice_Test.md)
