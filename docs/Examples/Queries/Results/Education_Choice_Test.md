@@ -131,6 +131,4 @@ Only the fields included in the GraphQL Request are returned.
 ---
 
 ## Related Examples
-
----
 ⬅️ [Submit Test Answers](../../Mutations/Submit_Test/README.md)
