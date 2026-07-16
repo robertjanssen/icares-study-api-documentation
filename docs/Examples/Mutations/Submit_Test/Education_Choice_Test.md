@@ -100,8 +100,7 @@ Replace **`<< test id >>`** with the identifier returned by the **Invite Study T
     { "id": 574, "value": "1" },
     { "id": 575, "value": "2" },
     { "id": 576, "value": "3" }
-  ],
-  "with_language": true
+  ]
 }
 ```
 
