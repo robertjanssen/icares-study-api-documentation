@@ -47,8 +47,7 @@ Replace `<< test id >>` with the identifier returned by the **Invite Study Test*
       "id": 939,
       "value": "ACGIORSV"
     }
-  ],
-  "with_language": true
+  ]
 }
 ```
 
