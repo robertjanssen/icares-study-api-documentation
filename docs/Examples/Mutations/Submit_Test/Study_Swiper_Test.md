@@ -15,8 +15,7 @@ Each submitted answer consists of a question identifier (`id`) and the selected 
 mutation submitStudySwiperTestAnswer
 (
   $id           : Int!,
-  $answers      : [SubmitTestAnswerInput!]!,
-  $with_language: Boolean
+  $answers      : [SubmitTestAnswerInput!]!
 )
 {
   submit_test(id: $id, answers: $answers)
@@ -30,9 +29,6 @@ mutation submitStudySwiperTestAnswer
     created_at
     started_at
     finished_at
-    result_url
-    secret
-    secret_url(with_language: $with_language)
   }
 }
 ```
@@ -128,8 +124,7 @@ Replace `<< test id >>` with the identifier returned by the **Invite Study Test*
     { "id": 1279, "value": "0" },
     { "id": 1280, "value": "1" },
     { "id": 1281, "value": "2" }
-  ],
-  "with_language": true
+  ]
 }
 ```
 
