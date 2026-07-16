@@ -5,7 +5,7 @@
 
 Creates one or more **study tests**.
 
-The response contains all information required to start the study test, including the generated test secret and the URL that can be used to open the test.
+The returned `id` uniquely identifies the study test and is required for subsequent API requests.
 
 ---
 
@@ -17,12 +17,10 @@ Copy and paste the following GraphQL mutation into the **Query / Mutation editor
 mutation Invite
 (
   $test:          String!,
-  $amount:        Int!,
-  $readable:      Boolean,
-  $with_language: Boolean
+  $amount:        Int!
 )
 {
-  invite(test: $test, amount: $amount, readable: $readable)
+  invite(test: $test, amount: $amount)
   {
     id
     type
@@ -33,9 +31,6 @@ mutation Invite
     created_at
     started_at
     finished_at
-    result_url
-    secret
-    secret_url(with_language: $with_language)
   }
 }
 ```
@@ -49,9 +44,7 @@ Copy and paste the following JSON into the **Query Variables** window of the Gra
 ```json
 {
   "test":          "education_choice_test",
-  "amount":        1,
-  "readable":      true,
-  "with_language": true
+  "amount":        1
 }
 ```
 
@@ -68,9 +61,6 @@ The response may contain the following information:
 | `created_at` | Date and time the study test was created. |
 | `started_at` | Date and time the participant started the test (if applicable). |
 | `finished_at` | Date and time the participant completed the test (if applicable). |
-| `result_url` | URL to the study test results (available after completion). |
-| `secret` | Unique test secret used to identify the study test. |
-| `secret_url()` | URL that opens the study test for the participant. |
 
 Only the fields requested in the GraphQL mutation are returned.
 
@@ -93,11 +83,10 @@ The `test` Query Variable accepts one of the following values.
 ## Typical Workflow
 
 1. Execute the **Invite** mutation.
-2. Store the returned **secret**.
-3. Open the returned **secret_url** or provide it to the participant.
-4. Retrieve the corresponding study test form.
-5. Submit the completed answers.
-6. Retrieve the calculated study results.
+2. Store the returned **id**.
+3. Retrieve the corresponding study test form.
+4. Submit the completed answers.
+5. Retrieve the calculated study results.
 
 ---
 
@@ -105,5 +94,3 @@ The `test` Query Variable accepts one of the following values.
 
 - The GraphQL response only contains the fields explicitly requested.
 - Set `amount` to the number of study tests that should be created.
-- Setting `readable` to `true` returns user-friendly URLs where applicable.
-- Setting `with_language` to `true` includes the configured language in the generated test URL.
