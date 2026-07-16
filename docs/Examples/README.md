@@ -26,6 +26,3 @@ GraphQL queries used to retrieve form definitions, study results and shared regi
 4. Submit the completed answers.
 5. Retrieve the results.
 6. Retrieve shared registrations (optional).
-
----
-➡️ [Mutations](Mutations) |➡️ [Queries](Queries)
