@@ -77,6 +77,4 @@ The mutation can be used for the following study test types:
 ---
 
 ## Related Examples
-
----
 ⬆️ [Submit Test](README.md)
