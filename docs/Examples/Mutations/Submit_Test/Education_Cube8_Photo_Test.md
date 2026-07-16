@@ -15,8 +15,7 @@ Each submitted answer consists of a question identifier (`id`) and the selected 
 mutation submitEducationCube8PhotoTestAnswer
 (
   $id           : Int!,
-  $answers      : [SubmitTestAnswerInput!]!,
-  $with_language: Boolean
+  $answers      : [SubmitTestAnswerInput!]!
 )
 {
   submit_test(id: $id, answers: $answers)
@@ -30,9 +29,6 @@ mutation submitEducationCube8PhotoTestAnswer
     created_at
     started_at
     finished_at
-    result_url
-    secret
-    secret_url(with_language: $with_language)
   }
 }
 ```
@@ -56,8 +52,7 @@ Replace `<< test id >>` with the identifier returned by the **Invite Study Test*
     { "id": 935, "value": "3" },
     { "id": 936, "value": "2" },
     { "id": 937, "value": "ACGIORSV" }
-  ],
-  "with_language": true
+  ]
 }
 ```
 
