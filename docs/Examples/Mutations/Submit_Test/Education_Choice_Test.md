@@ -15,8 +15,7 @@ Each submitted answer consists of a question identifier (`id`) and the selected 
 mutation submitEducationChoiceTestAnswer
 (
   $id           : Int!,
-  $answers      : [SubmitTestAnswerInput!]!,
-  $with_language: Boolean
+  $answers      : [SubmitTestAnswerInput!]!
 )
 {
   submit_test(id: $id, answers: $answers)
@@ -30,9 +29,6 @@ mutation submitEducationChoiceTestAnswer
     created_at
     started_at
     finished_at
-    result_url
-    secret
-    secret_url(with_language: $with_language)
   }
 }
 ```
