@@ -94,3 +94,5 @@ The `test` Query Variable accepts one of the following values.
 
 - The GraphQL response only contains the fields explicitly requested.
 - Set `amount` to the number of study tests that should be created.
+
+➡️ [Forms](../../Queries/Forms/README.md)
