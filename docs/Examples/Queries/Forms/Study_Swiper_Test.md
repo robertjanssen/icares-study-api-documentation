@@ -67,10 +67,6 @@ Only the fields included in the GraphQL Request are returned.
 
 ## Related Examples
 
-Previous step:
-
-- **Mutations → Invite → Invite Study Test**
-
-Next step:
-
-- **Mutations → Submit Test → Study Swiper Test**
+---
+⬅️ [Invite Study Test](../../Mutations/Invite/Invite_Study_Test.md) |
+➡️ [Submit Cube8 Black Board Test Answers](../../Mutations/Submit_Test/Study_Swiper_Test.md)
