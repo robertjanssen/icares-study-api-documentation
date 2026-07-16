@@ -177,11 +177,3 @@ Only the fields included in the GraphQL Request are returned.
 - Removing fields reduces the amount of data returned.
 
 ---
-
-## Related Examples
-
-Related examples:
-
-- **Queries → Results → Education Choice Test Results**
-- **Queries → Forms → Education Choice Test**
-- **Mutations → Invite → Invite Study Test**
