@@ -15,8 +15,7 @@ The answer contains the question identifier and the selected combination of valu
 mutation submitEducationCube8NoticeBoardTestAnswer
 (
   $id           : Int!,
-  $answers      : [SubmitTestAnswerInput!]!,
-  $with_language: Boolean
+  $answers      : [SubmitTestAnswerInput!]!
 )
 {
   submit_test(id: $id, answers: $answers)
@@ -30,9 +29,6 @@ mutation submitEducationCube8NoticeBoardTestAnswer
     created_at
     started_at
     finished_at
-    result_url
-    secret
-    secret_url(with_language: $with_language)
   }
 }
 ```
