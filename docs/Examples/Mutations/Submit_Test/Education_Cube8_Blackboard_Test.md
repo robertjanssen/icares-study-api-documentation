@@ -30,9 +30,6 @@ mutation submitEducationCube8BlackboardTestAnswer
     created_at
     started_at
     finished_at
-    result_url
-    secret
-    secret_url(with_language: $with_language)
   }
 }
 ```
