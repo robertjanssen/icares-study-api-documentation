@@ -65,4 +65,4 @@ Only the fields included in the GraphQL Request are returned.
 
 ---
 ⬅️ [Invite Study Test](../../Mutations/Invite/Invite_Study_Test.md) |
-➡️ [Submit Education Choice Test Answers](../Mutations/Submit/Education_Choice_Test.md)
+➡️ [Submit Education Choice Test Answers](../../Mutations/Submit/Education_Choice_Test.md)
