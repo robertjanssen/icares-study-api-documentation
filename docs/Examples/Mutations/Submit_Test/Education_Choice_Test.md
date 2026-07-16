@@ -123,6 +123,5 @@ A successful request returns the updated study test. Only the requested fields a
 
 ## Related Examples
 
----
 ⬅️ [Education Choice Test Form](../../Queries/Forms/Education_Choice_Test.md) |
 ➡️ [Study Test Results](../../Queries/Results/Education_Choice_Test.md)
