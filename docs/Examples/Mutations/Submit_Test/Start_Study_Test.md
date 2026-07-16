@@ -14,7 +14,7 @@ This sets the `started_at` timestamp, which can be used to determine when the pa
 ```graphql
 mutation startTest
 (
-  $id           : Int!
+  $id: Int!
 )
 {
   start_test(id: $id)
