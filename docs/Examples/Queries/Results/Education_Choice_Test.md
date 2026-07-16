@@ -132,8 +132,5 @@ Only the fields included in the GraphQL Request are returned.
 
 ## Related Examples
 
-Previous steps:
-
-- **Mutations → Invite → Invite Study Test**
-- **Queries → Forms → Education Choice Test**
-- **Mutations → Submit Test → Education Choice Test**
+---
+⬅️ [Invite Study Test](../../Mutations/Submit_Test/README.md)
