@@ -91,18 +91,48 @@ query getEducationChoiceTestResult
 
 ## Query Variables
 
-Replace `<< test id >>` with the identifier of the completed study test.
+Replace `<< test id >>` with the identifier of the completed study test and the `<< EDUCATIONAL_INSTITUTION_ID >>` with the id provided in the 1Password Secure Note with the API_TOKEN.
 
 ```json
 {
   "id":                         << test id >>,
-  "country_id":                 << $COUNTRY_ID >>,
-  "education_level_id":         << $EDUCATION_LEVEL_ID >>,
-  "educational_institution_id": << $EDUCATIONAL_INSTITUTION_ID >>,
-  "language_id":                << $LANGUAGE_ID >>,
+  "country_id":                 158,
+  "education_level_id":         5,
+  "educational_institution_id": << EDUCATIONAL_INSTITUTION_ID >>,
+  "language_id":                20,
   "results_limit":              10
 }
 ```
+Typial values for the Netherlands:
+
+| Query Variable | id | Description |
+|------|------------|------------|
+| `country_id` | 158 | The Netherlands |
+| `education_level_id` | 1 | MBO 1 |
+| | 2 | MBO 2 |
+| | 3 | MBO 3 |
+| | 4 | MBO 4 |
+| | 663 | MHBO |
+| | 5 | HBO Bachelor |
+| | 6 | HBO Master |
+| | 20 | HBO Associate Degree |
+| | 424 | Post-HBO |
+| | 7 | WO Bachelor |
+| | 8 | WO Master |
+| | 758 | Post academisch |
+| `language_id` | 20 | Dutch |
+
+Typical values for England:
+
+| Query Variable | id | Description |
+|------|------------|------------|
+| `country_id` | 252 | England |
+| `education_level_id` | 58 | Intermediate level 5 |
+| | 59 | Honours level 6 |
+| | 60 | Masters level 7 |
+| | 61 | Doctoral level 8 |
+| | 203 | Certificate level 4 |
+| `language_id` | 10 | English |
 
 ---
 
