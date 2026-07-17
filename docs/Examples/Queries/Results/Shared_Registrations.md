@@ -151,6 +151,8 @@ Replace the `<< EDUCATIONAL_INSTITUTION_ID >>` with the id provided in the 1Pass
 }
 ```
 
+See [Typical Values](Education_Choice_Test.md#typial-query-variables-for-the-netherlands-and-england) for descriptions of the Query Variable id's used above.
+
 ---
 
 ## Response
