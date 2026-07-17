@@ -4,6 +4,10 @@ All notable changes to the Icares Study API Developer Documentation will be docu
 
 ---
 
+## Latest changes
+
+- Added typical id's for the Netherlands and England to the result examples
+
 ## Version 1.0.0
 
 **Release date:** July 2026
