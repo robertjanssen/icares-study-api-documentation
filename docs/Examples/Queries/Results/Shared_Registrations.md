@@ -137,14 +137,16 @@ query getSharedRegistrations
 
 ## Query Variables
 
+Replace the `<< EDUCATIONAL_INSTITUTION_ID >>` with the id provided in the 1Password Secure Note with the API_TOKEN.
+
 ```json
 {
   "start_date":                 "2026-01-01",
   "end_date":                   "2026-07-14",
-  "country_id":                 << $COUNTRY_ID >>,
-  "education_level_id":         << $EDUCATION_LEVEL_ID >>,
-  "language_id":                << $LANGUAGE_ID >>,
-  "educational_institution_id": << $EDUCATIONAL_INSTITUTION_ID >>,
+  "country_id":                 158,
+  "education_level_id":         5,
+  "language_id":                20,
+  "educational_institution_id": << EDUCATIONAL_INSTITUTION_ID >>,
   "results_limit":              3
 }
 ```
