@@ -103,7 +103,7 @@ Replace `<< test id >>` with the identifier of the completed study test and the 
   "results_limit":              10
 }
 ```
-Typial values for the Netherlands:
+### Typial Query Variables for the Netherlands and England
 
 | Query Variable | id | Description |
 |------|------------|------------|
@@ -121,8 +121,6 @@ Typial values for the Netherlands:
 | | 8 | WO Master |
 | | 758 | Post academisch |
 | `language_id` | 20 | Dutch |
-
-Typical values for England:
 
 | Query Variable | id | Description |
 |------|------------|------------|
